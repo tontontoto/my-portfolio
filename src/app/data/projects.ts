@@ -34,7 +34,7 @@ export const projects: Project[] = [
       new URL("../../assets/images/piction_detail3.png", import.meta.url).href,
     ],
     color: "from-blue-500/20 to-indigo-500/20",
-    summary: "描いた絵をオークションに出品できるサイト",
+    summary: "【学内最多得票賞受賞】描いた絵をオークションに出品できるサイト",
     period: "2024.06 - 2025.3",
     role: "チームリーダー、デザイン、フロントエンド",
     stack: ["JavaScript", "Flask", "SQlite", "Azure", "Figma", "HTML", "CSS"],
@@ -57,7 +57,6 @@ export const projects: Project[] = [
     detailImages: [
       new URL("../../assets/images/bulletin-board_detail1.png", import.meta.url).href,
       new URL("../../assets/images/bulletin-board_detail2.png", import.meta.url).href,
-      new URL("../../assets/images/bulletin-board_detail3.png", import.meta.url).href,
     ],
     color: "from-blue-500/20 to-indigo-500/20",
     summary: "匿名で掲示板を作成できるサイト",
@@ -78,9 +77,12 @@ export const projects: Project[] = [
     slug: "design",
     title: "My 名刺デザイン",
     category: "design",
-    image: "",
+    image: new URL("../../assets/images/meishi_yoko1.png", import.meta.url).href,
     detailImages: [
-      ""
+      new URL("../../assets/images/meishi_yoko1.png", import.meta.url).href,
+      new URL("../../assets/images/meishi_yoko2.png", import.meta.url).href,
+      new URL("../../assets/images/meishi_tate1.png", import.meta.url).href,
+      new URL("../../assets/images/meishi_tate2.png", import.meta.url).href,
     ],
     color: "from-purple-500/20 to-pink-500/20",
     summary: "名刺デザイン",

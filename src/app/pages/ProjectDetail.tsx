@@ -41,6 +41,8 @@ export const ProjectDetail = () => {
     );
   }
 
+  const mainImage = project.detailImages[0] || project.image;
+
   return (
     <section className="py-24 px-6">
       <div className="max-w-5xl mx-auto space-y-12">
@@ -72,7 +74,7 @@ export const ProjectDetail = () => {
           <div className={`rounded-3xl overflow-hidden bg-gradient-to-br ${project.color} p-6`}>
             <div className="w-full h-full rounded-2xl overflow-hidden shadow-2xl bg-white/70">
               <ImageWithFallback
-                src={project.detailImages[0]}
+                src={mainImage}
                 alt={`${project.title} メイン画像`}
                 className="w-full h-full object-contain"
               />
